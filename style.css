@@ -1,0 +1,28 @@
+a{
+    display: inline-block;
+    border: 2px solid black;
+    background: lightcyan;
+    box-shadow: 2px 4px 8px black;
+    padding: 5px;
+    left: 10px;
+    position: relative;
+    text-decoration: none;
+    color: red;
+    transition: .2s;
+}
+a:hover{
+    background: red;
+    color: black;
+}
+p{
+    left: 10px;
+    position: relative;
+}
+
+.image{
+    cursor: pointer;
+    border: 2px solid;
+    box-shadow: 1px 4px 8px black;
+    transition: .2s;
+    float: left;
+}

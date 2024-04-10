@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 1000px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="harddrive.jpg" alt="" usemap="#hdd">
+
+    <map name="hdd">
+        <area shape="circle" coords="285,87,40" href="spindle.html" alt="">
+        <area shape="circle" coords="230,162,40" href="disk.html" alt="">
+        <area shape="circle" coords="148,234,40" href="save.html" alt="">
+        <area shape="circle" coords="96,311,40" href="actuator.html" alt="">
+        <area shape="circle" coords="88,708,40" href="port.html" alt="">
+        <area shape="circle" coords="220,759,40" href="data.html" alt="">
+        <area shape="circle" coords="320,818,40" href="drive.html" alt="">
+        <area shape="circle" coords="933,721,40" href="circut.html" alt="">
+        <area shape="circle" coords="974,453,40" href="arm.html" alt="">
+        <area shape="circle" coords="905,34,40" href="read.html" alt="">
+    </map>
+
+    <script>
+        addEventListener("mousemove", function (event) {
+            console.log("x: " + event.pageX);
+            console.log("y: " + event.pageY);
+        });
+    </script>
+</body>
+
+</html>
